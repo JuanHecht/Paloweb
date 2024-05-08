@@ -1,0 +1,9 @@
+.heroImgContainer img{
+    position: relative;
+    object-fit: cover;
+    left: 0;
+    width: 100vw;
+    height: 95vh;
+    z-index: 0; 
+    opacity: 100%;
+}

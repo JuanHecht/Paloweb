@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Rumble Brave';
+    src: url('../assets/RumbleBrave.otf');
+}
+
+.section{
+    height: 100vh;
+    padding: 60px;
+    /* font-family: 'Rumble Brave'; */
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(185, 89, 85);
+    color: white;
+}
+
+.sectionTitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitle h2{
+    font-size: 100px;
+    margin: 0;
+}
+
+.sectionTitle h4{
+    font-size: 40px;
+    margin: 0;
+}
+
+.platillosSection{
+    margin-top: 9em;
+    display: flex;
+    align-items: center
+}
+
+.platilloImg{
+    padding-right: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.platilloImg p{
+    font-size: 28px;
+}
+
+.platilloImg img{
+   height: 380px;
+}

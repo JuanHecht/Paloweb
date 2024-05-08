@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Rumble Brave';
+    src: url('../assets/RumbleBrave.otf');
+}
+
+.sectionAbout{
+    height: 90vh;
+    background-color: rgb(185, 89, 85);
+    color: white;
+    display: flex;
+    /* font-family: 'Rumble Brave'; */
+    font-family: "Poppins", sans-serif;
+}
+
+.leftSide img{
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.rightSide{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.rightSide h2{
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.rightSide p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.rightSide .miniTitle{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
