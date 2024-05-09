@@ -18,13 +18,14 @@
 }
 
 .sectionTitle h2{
-    font-size: 100px;
+    font-size: 75px;
     margin: 0;
 }
 
 .sectionTitle h4{
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
+    margin-bottom: 5em;
 }
 
 .platillosSection{
@@ -42,9 +43,18 @@
 }
 
 .platilloImg p{
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .platilloImg img{
-   height: 380px;
+   height: 200px;
+}
+.carousel .slide img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide{
+    padding: 10px;
 }
